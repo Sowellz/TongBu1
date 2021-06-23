@@ -26,6 +26,6 @@ jobs:
         if: env.PAT
         with:
           source_repo: "https://github.com/lan-tianxiang/JS_TOOL.git"
-          source_branch: "main"
+          source_branch: "A1"
           destination_branch: "JS-TOOL"
           github_token: ${{ secrets.PAT }}
